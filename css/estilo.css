@@ -1,0 +1,117 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #5f2c82;
+    height: 100vh;
+}
+
+section {
+    background-color: white;
+    width: 280px;
+    height: 525px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.566);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #foto {
+    background-image: url(../img/pexels-scott-webb-305816.jpg);
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section #formulario {
+    padding: 15px;
+}
+
+#formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #77685D;
+}
+
+#formulario p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input[type=submit],
+button {
+    display: block;
+    width: 100%;
+    margin: 12px 0px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    padding: 5px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+input[type=submit]:hover {
+    background-color: #2b5f5d;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #49a09d;
+    color: #49a09d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 0px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button>span {
+    margin-left: 5px;
+}
+
+div>input {
+    border: 1px solid #49a09d;
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin-left: 8px;
+    background-color: #49a09d;
+}
+
+form div {
+    display: flex;
+    background-color: #5f2c82;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 6px 0px;
+}
+
+div span {
+    color: white;
+    margin-left: 3px;
+}
+
+div>input::placeholder {
+    color: rgba(255, 255, 255, 0.95);
+}
+
+div input:focus-within {
+    background-color: white;
+}

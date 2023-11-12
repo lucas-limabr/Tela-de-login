@@ -1,0 +1,60 @@
+@media screen and (min-width: 600px) and (max-width: 772px) {
+   section {
+      width: 80vw;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      height: max-content;
+   }
+
+   div > input{
+     padding-right: 0px;
+      padding-left: 3px;
+  }
+
+   section #foto {
+      height: 350px;
+   }
+
+   body{
+      background-image: linear-gradient(to top, #49a09d, #5f2c82);
+   }
+}
+
+@media screen and (min-width: 773px){
+   body{
+      background-image: linear-gradient(to top, #49a09d, #5f2c82);
+   }
+
+   section {
+      width: 60vw;
+      height: max-content;
+   }
+
+   section #formulario {
+      margin-left: 30px;
+      float: left;
+      width: 40%;
+   }
+
+   section #foto {
+      height: 380px;
+      float: right;
+      width: 50%;
+   }
+
+   #formulario h1{
+     font-size: 1.9em;
+  }
+
+  #formulario p{
+   font-size: 1.2em;
+  }
+
+  div > input{
+   width: 90%; 
+   max-width: 160px;
+   padding-right: 0px;
+   padding-left: 4px;
+   margin-right: 5px;
+   }
+}
